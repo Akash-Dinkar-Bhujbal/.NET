@@ -1,0 +1,12 @@
+D:\Training\.net\VB_Add\VB_Add\bin\Debug\net6.0\VB_Add.deps.json
+D:\Training\.net\VB_Add\VB_Add\bin\Debug\net6.0\VB_Add.dll
+D:\Training\.net\VB_Add\VB_Add\bin\Debug\net6.0\VB_Add.pdb
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\VB_Add.vbproj.AssemblyReference.cache
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\VB_Add.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\VB_Add.AssemblyInfoInputs.cache
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\VB_Add.AssemblyInfo.vb
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\VB_Add.vbproj.CoreCompileInputs.cache
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\VB_Add.dll
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\refint\VB_Add.dll
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\VB_Add.pdb
+D:\Training\.net\VB_Add\VB_Add\obj\Debug\net6.0\ref\VB_Add.dll

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>VB2_add</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VB_Add">
+      <HintPath>..\..\VB_Add\VB_Add\bin\Debug\net6.0\VB_Add.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

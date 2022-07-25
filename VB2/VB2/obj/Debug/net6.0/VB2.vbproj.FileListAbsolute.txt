@@ -1,0 +1,15 @@
+D:\Training\.net\VB2\VB2\bin\Debug\net6.0\VB2.exe
+D:\Training\.net\VB2\VB2\bin\Debug\net6.0\VB2.deps.json
+D:\Training\.net\VB2\VB2\bin\Debug\net6.0\VB2.runtimeconfig.json
+D:\Training\.net\VB2\VB2\bin\Debug\net6.0\VB2.dll
+D:\Training\.net\VB2\VB2\bin\Debug\net6.0\VB2.pdb
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.vbproj.AssemblyReference.cache
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.AssemblyInfoInputs.cache
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.AssemblyInfo.vb
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.vbproj.CoreCompileInputs.cache
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.dll
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\refint\VB2.dll
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.pdb
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\VB2.genruntimeconfig.cache
+D:\Training\.net\VB2\VB2\obj\Debug\net6.0\ref\VB2.dll
