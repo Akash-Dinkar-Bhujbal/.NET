@@ -32,13 +32,16 @@ Module Program
         'Console.WriteLine("Your Message : " + message)
 
         '''Const = Final
-        'Const PI = 3.14149
-        '' Single = Float
-        'Dim radius, area As Single
-        'radius = 7
+        Const PI = 3.14149
 
-        'area = PI * radius * radius
-        'Console.WriteLine("Area of Circle : " + Str(area))
+        ''>> Single = Float <<
+        Dim radius, area As Single
+        radius = 7
+
+        area = PI * radius * radius
+        Console.WriteLine("Area of Circle : " + Str(area))
+
+
 
         '''If Else
         'Dim a As Integer = 100
@@ -201,11 +204,11 @@ Module Program
         'Next
 
         ''' Call By Value & Call By Reference
-        'Dim i As Integer = 100
-        'Sub1(i) ' Call by Value
-        'Console.WriteLine(i)
-        'Sub2(i) ' Call by Reference
-        'Console.WriteLine(i)
+        Dim i As Integer = 100
+        Sub1(i) ' Call by Value
+        Console.WriteLine(i)
+        Sub2(i) ' Call by Reference
+        Console.WriteLine(i)
 
         'Dim a As Integer
         'Console.WriteLine("enter first number: ")
@@ -230,15 +233,17 @@ Module Program
         'total1 = SubtractionOfTwo(a, b) 'call SubtractionOfTwo() Function  
         'Console.WriteLine(" Sum of two number is : {0}", total)
         'Console.WriteLine(" Subtraction of two number is : {0}", total1)
+        '-----------------------------------------------------------------
 
-        Dim n As Integer
-        Console.WriteLine("enter first number: ")
-        n = Convert.ToInt32(Console.ReadLine())
-        Dim s As String = PosNeg(n)
+        'Dim n As Integer
+        'Console.WriteLine("enter first number: ")
+        'n = Convert.ToInt32(Console.ReadLine())
+        'Dim s As String = PosNeg(n)
 
-        Console.WriteLine("Number is " & s)
+        'Console.WriteLine("Number is " & s)
 
     End Sub
+    '''End Main
 
     ''' Call by Value
     Sub Sub1(x As Integer)

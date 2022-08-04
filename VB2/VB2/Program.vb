@@ -6,6 +6,8 @@ Module Program
         'Console.WriteLine(num.Length)
         '''Size when declaring : n-1// Index
         '''Size when shown : n // Length
+        '''-------------------------------------------------------
+
         'Dim num1 As Integer() = New Integer(5) {1, 2, 3, 4, 5, 6}
         'Console.WriteLine(num1.Length)
         'Dim arr_name As Integer() = New Integer() {5, 10, 15, 20, 5}
@@ -20,6 +22,8 @@ Module Program
         '    sum += marks(i)
         'Next
         'Console.WriteLine("Grand total is {0}", sum)
+        '--------------------------------------------------------
+
         'Dim max As Integer = marks(0)
         'For i = 1 To marks.Length - 1
         '    If marks(i) > max Then
@@ -27,6 +31,8 @@ Module Program
         '    End If
         'Next
         'Console.WriteLine("Maximum number of Array is {0}", max)
+        '--------------------------------------------------------
+
         '''Sorting:
         'For i = 0 To marks.Length - 2
         '    For j = i + 1 To marks.Length - 1
@@ -42,9 +48,15 @@ Module Program
         'For i = 0 To marks.Length - 1
         '    Console.WriteLine("Marks {0}", marks(i))
         'Next
+        '''-----------------------------------------------------------
 
         '''2D Array/ Matrix
-        Dim intArray(,) As Integer = {{5, 4}, {3, 2}, {4, 7}, {4, 5}}
+        Dim intArray(,) As Integer = {
+                                        {5, 4},
+                                        {3, 2},
+                                        {4, 7},
+                                        {4, 5}
+                                      }
 
         'Console.WriteLine(" Two Dimensional Arraye in VB.NET are")
         'For i As Integer = 0 To 3
@@ -52,20 +64,24 @@ Module Program
         '        Console.WriteLine("intArray[{0}, {1}] = {2}", i, j, intArray(i, j))
         '    Next j
         'Next i
+        '-------------------------------------------------------------
 
 
         '''Addition of Rows
+        'Console.WriteLine("i j sum")
         'For i = 0 To 3
         '    Dim sum As Integer = 0
         '    For j = 0 To 1
         '        Console.Write("{0} ", intArray(i, j))
         '        sum += intArray(i, j)
         '    Next j
-        '    Console.WriteLine("{0}",sum)
+        '    Console.WriteLine("{0}", sum)
         'Next i
+        '--------------------------------------------------------------
 
         'Console.WriteLine(intArray.GetLength(0)) // 4Rows
         'Console.WriteLine(intArray.GetLength(1)) // 2Columns
+        '--------------------------------------------------------------
 
         '''Addition of Col
         'Dim col As Integer = intArray.GetLength(1)
@@ -82,12 +98,15 @@ Module Program
         'For i = 0 To 1
         '    Console.Write("{0} ", arr(i))
         'Next
+        '--------------------------------------------------------------
 
         'Dim fname, lname, fullname, greetings As String
         'fname = "MOHAN"
         'lname = "KHANNA"
         'fullname = fname + " " + lname
         'Console.WriteLine("Full Name: {0}", fullname)
+        '--------------------------------------------------------------
+
 
         ''''by using string constructor
         'Dim letters As Char() = {"H", "E", "L", "L", "O"}
@@ -95,17 +114,23 @@ Module Program
         'Console.WriteLine("Greetings: {0}", greetings)
         'greetings = "hii"
         'Console.WriteLine("{0} {1} {2}", greetings, fname, lname)
+        '--------------------------------------------------------------
+
 
         '''methods returning String
-        Dim sarray() As String = {"Hello", "From", "NELITO", "AIROLI"}
-        Dim message As String = String.Join("_.0", sarray)
-        Console.WriteLine("Message: {0}", message)
+        'Dim sarray() As String = {"Hello", "From", "NELITO", "AIROLI"}
+        'Dim message As String = String.Join("_.0", sarray)
+        'Console.WriteLine("Message: {0}", message)
+        '--------------------------------------------------------------
+
 
         'Dim str1 As String
         'str1 = "This is test"
         'If (str1.Contains("test")) Then
         '    Console.WriteLine("The sequence 'test' was found")
         'End If
+        '--------------------------------------------------------------
+
 
         'Dim str2, str3 As String
         'str2 = "This is test"
@@ -116,13 +141,19 @@ Module Program
         'Else
         '    Console.WriteLine(str2 + " and " + str3 + " are not equal")
         'End If
+        '--------------------------------------------------------------
+
 
         'Dim str4 As String
         'str4 = "Last night I WENT TO MUMBAI"
         'Console.WriteLine(str4)
+        '--------------------------------------------------------------
+
 
         'Dim substr As String = str4.Substring(23)
         'Console.WriteLine(substr)
+        '--------------------------------------------------------------
+
 
         'Dim list As New List(Of Integer)
         'list.Add(2)
@@ -132,8 +163,12 @@ Module Program
         'list.Add(17)
         'Console.WriteLine("LIST 1 COUNT: {0}", list.Count)
         'Console.WriteLine("LIST 1 LAST: {0}", list(list.Count - 1))
+        '--------------------------------------------------------------
+        '--------------------------------------------------------------
+
 
         ''' List Collections
+        '' Version 1: create list without initializer.
         'Dim lst As New List(Of Integer)
         'Dim sum As Integer = 0
         'For i = 0 To 4
@@ -149,6 +184,8 @@ Module Program
         '    Console.WriteLine(lst(i))
         'Next
         'Console.WriteLine("Sum of all elements in List: {0}", sum)
+        '--------------------------------------------------------------
+
 
         '' Version 2: create list with initializer.
         'Dim list2 As New List(Of Integer)({2, 3, 5, 7})

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Training\\.net\\VB1\\VB1\\VB1.vbproj": {}
+    "D:\\GitHub\\Akash-Dinkar-Bhujbal\\.NET\\VB1\\VB1\\VB1.vbproj": {}
   },
   "projects": {
-    "D:\\Training\\.net\\VB1\\VB1\\VB1.vbproj": {
+    "D:\\GitHub\\Akash-Dinkar-Bhujbal\\.NET\\VB1\\VB1\\VB1.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Training\\.net\\VB1\\VB1\\VB1.vbproj",
+        "projectUniqueName": "D:\\GitHub\\Akash-Dinkar-Bhujbal\\.NET\\VB1\\VB1\\VB1.vbproj",
         "projectName": "VB1",
-        "projectPath": "D:\\Training\\.net\\VB1\\VB1\\VB1.vbproj",
+        "projectPath": "D:\\GitHub\\Akash-Dinkar-Bhujbal\\.NET\\VB1\\VB1\\VB1.vbproj",
         "packagesPath": "C:\\Users\\akashb\\.nuget\\packages\\",
-        "outputPath": "D:\\Training\\.net\\VB1\\VB1\\obj\\",
+        "outputPath": "D:\\GitHub\\Akash-Dinkar-Bhujbal\\.NET\\VB1\\VB1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
