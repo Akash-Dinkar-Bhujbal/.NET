@@ -1,5 +1,5 @@
 # .NET
-dotNET framework using C#
+dotNET framework using VISUAL BASIC
 
 ## VB1
 - Module = CLASS

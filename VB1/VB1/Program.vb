@@ -31,15 +31,15 @@ Module Program
         'Console.WriteLine()
         'Console.WriteLine("Your Message : " + message)
 
-        '''Const = Final
-        Const PI = 3.14149
+        ''''Const = Final
+        'Const PI = 3.14149
 
-        ''>> Single = Float <<
-        Dim radius, area As Single
-        radius = 7
+        '''>> Single = Float <<
+        'Dim radius, area As Single
+        'radius = 7
 
-        area = PI * radius * radius
-        Console.WriteLine("Area of Circle : " + Str(area))
+        'area = PI * radius * radius
+        'Console.WriteLine("Area of Circle : " + Str(area))
 
 
 
@@ -172,13 +172,13 @@ Module Program
         'End If
 
         ''' Nested For Loop:
-        'Dim i, j As Integer
-        'For i = 1 To 3
-        '    For j = 1 To 4
-        '        Console.WriteLine("i= {0}, j= {1}", i, j)
-        '    Next
-        '    Console.WriteLine()
-        'Next
+        Dim i, j As Integer
+        For i = 1 To 3
+            For j = 1 To 4
+                Console.WriteLine("i= {0}, j= {1}", i, j)
+            Next
+            Console.WriteLine()
+        Next
 
         ''' Task4 : Print all Prime No
         'Dim s As Integer
@@ -204,11 +204,11 @@ Module Program
         'Next
 
         ''' Call By Value & Call By Reference
-        Dim i As Integer = 100
-        Sub1(i) ' Call by Value
-        Console.WriteLine(i)
-        Sub2(i) ' Call by Reference
-        Console.WriteLine(i)
+        'Dim i As Integer = 100
+        'Sub1(i) ' Call by Value
+        'Console.WriteLine(i)
+        'Sub2(i) ' Call by Reference
+        'Console.WriteLine(i)
 
         'Dim a As Integer
         'Console.WriteLine("enter first number: ")
